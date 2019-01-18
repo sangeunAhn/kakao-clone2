@@ -11,9 +11,10 @@
       crossorigin="anonymous"
     />
     <title>Friends</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <div class="header_top">
         <div class="header_column">
           <i class="fas fa-fighter-jet"></i> <i class="fas fa-wifi"></i>
@@ -42,17 +43,14 @@
         <input type="text" placeholder="Find friends, chats, Plus Friends" />
       </div>
       <section class="friends_section">
-        <header><h6 class="friends_section-title">My Profile</h6></header>
+        <header><h6 class="friends_section-header">My Profile</h6></header>
         <div class="friends_section-rows">
           <div class="friends_section-row">
-            <a href="profile.html">
-              <img src="images/avatar.png" />
-              <span class="friends_section-name">Nicolas</span>
-            </a>
+            <img src="images/avatar.png" /> <a href="profile.html">Nicolas </a>
           </div>
           <div class="friends_section-row">
+            <img src="images/avatar.png" />
             <a href="profile.html">
-              <img src="images/avatar.png" />
               <span class="friends_section-name">Friends' Names Display</span>
             </a>
           </div>
@@ -60,18 +58,20 @@
       </section>
       <section class="friends_section">
         <header class="friends_section-header">
-          <h6 class="friends_section-title"></h6>
+          <h6 class="friends_section-title">Friends</h6>
         </header>
         <div class="friends_section-rows">
-          <div class="friends_section-row">
-            <a href="profile.html">
+          <div class="friends_section-row with-tagline">
+            <div class="friends_section-column">
               <img src="images/avatar.png" />
-              <span class="friends_section-name">Nicolas</span>
-            </a>
+              <a href="profile.html">
+                <span class="friends_section-name">Nicolas</span>
+              </a>
+            </div>
+            <span class="friends_section-tagline">
+              Life is short. So live your life.
+            </span>
           </div>
-          <span class="friends_section-tagline">
-            Life is short. So live your life.
-          </span>
         </div>
       </section>
     </main>
