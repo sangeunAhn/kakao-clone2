@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="top-header">
+    <header class="top-header top-header--transparent">
       <div class="header_top">
         <div class="header_column">
           <i class="fas fa-fighter-jet"></i> <i class="fas fa-wifi"></i>
@@ -37,24 +37,31 @@
     </header>
     <main class="profile">
       <header class="profile_header">
-        <img src="images/avatar.png" alt="" />
-        <h3 class="profile_header-title">Nicolas</h3>
-      </header>
-      <input type="text" placeholder="angineer01@gmail.com" />
-      <div class="profile_actions">
-        <div class="profile_action">
-          <span class="profile_action-circle">
-            <i class="fa fa-comment fa-2x"></i>
-          </span>
-          <span class="profile_action-title">My Chatroom</span>
+        <div class="profile_header-container">
+          <img src="images/avatar.png" alt="" />
+          <h3 class="profile_header-title">Nicolas</h3>
         </div>
-        <div class="profile_action">
-          <span class="profile_action-circle">
-            <i class="fas fa-pencil-alt fa-2x"></i>
-          </span>
-          <span class="profile_action-title">Edit profile</span>
+      </header>
+      <div class="profile_container">
+        <input type="text" placeholder="angineer01@gmail.com" />
+        <div class="profile_actions">
+          <div class="profile_action">
+            <span class="profile_action-circle">
+              <i class="fa fa-comment fa-2x"></i>
+            </span>
+            <span class="profile_action-title">My Chatroom</span>
+          </div>
+          <div class="profile_action">
+            <span class="profile_action-circle">
+              <i class="fas fa-pencil-alt fa-2x"></i>
+            </span>
+            <span class="profile_action-title">Edit profile</span>
+          </div>
         </div>
       </div>
     </main>
+    <div class="bigScreenText">
+      <span>Please make your screen smaller</span>
+    </div>
   </body>
 </html>
